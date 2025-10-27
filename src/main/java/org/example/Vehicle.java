@@ -10,6 +10,14 @@ public class Vehicle {
     private int fuelCapacity;
     private int speed;
 
+    public Vehicle() {
+
+    }
+
+    public Vehicle(String color, String make, String model) {
+        this.color = color;
+    }
+
     public void setColor(String color) {
         this.color = color;
     }

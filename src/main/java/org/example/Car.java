@@ -10,13 +10,12 @@ public class Car extends WheeledVehicle {
     }
 
     public Car(String color, String make, String model) {
-        setColor(color);
-        setMake(make);
-        setModel(model);
-
-        setNumberOfPassengers(4);
+        super(color, make, model);
+        setNumberOfPassengers(numberOfPassengers);
     }
 
-
+    public String getFuelType() {
+        return fuelType;
+    }
 
 }

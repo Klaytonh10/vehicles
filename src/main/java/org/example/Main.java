@@ -5,5 +5,7 @@ public class Main {
         Moped slowRider = new Moped();
         slowRider.setColor("red");
         System.out.println(slowRider.getColor());
+
+
     }
 }
